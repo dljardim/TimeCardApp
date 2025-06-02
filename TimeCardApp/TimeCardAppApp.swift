@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct TimeCardAppApp: App {
@@ -13,5 +14,6 @@ struct TimeCardAppApp: App {
         WindowGroup {
             TimeCardAppMainView()
         }
+        .modelContainer(for: [Employee.self, AttendanceEntry.self])
     }
 }
