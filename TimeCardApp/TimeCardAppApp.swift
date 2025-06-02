@@ -11,7 +11,7 @@ import SwiftUI
 struct TimeCardAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TimeCardAppMainView()
         }
     }
 }
